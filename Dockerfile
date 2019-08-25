@@ -69,6 +69,8 @@ RUN set -ex \
 RUN npm install -g \
     textlint \
     textlint-rule-preset-ja-technical-writing \
+    textlint-rule-preset-jtf-style \
+    textlint-rule-prh \
     textlint-plugin-rst
 
 RUN pip install docutils-ast-writer flake8 nbformat
